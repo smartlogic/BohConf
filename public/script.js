@@ -8,7 +8,7 @@ $(document).ready(function(){
 		$(".popup", this).fadeOut('fast');
 	 });
 	
-	$(".tabs").hover(
+	$("#tab_container a").hover(
 		function() {
 			$(this).animate({backgroundColor: "#ff0000"}, 300);
 		},
