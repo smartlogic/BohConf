@@ -28,6 +28,10 @@ $(document).ready(function(){
 	$("#sessions_link").click(function() {
 		$('html, body').animate({scrollTop: $("#sessions_h2").offset().top}, 700);
 	});
+
+	$("#what_is_boh_link").click(function() {
+		$('html, body').animate({scrollTop: $("#what_is_boh_h2").offset().top}, 700);
+	});
 	
 	$("#social_media_link").click(function() {
 		$('html, body').animate({scrollTop: $("#social_media_h2").offset().top}, 700);
