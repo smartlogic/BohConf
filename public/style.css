@@ -127,6 +127,9 @@ hr {
 #copyright a {
         vertical-align: middle;
 }
+#mobile-toggle {
+  text-align: center;
+}
 #smartlogic {
 	vertical-align: middle;
 	margin-top: -8px;
