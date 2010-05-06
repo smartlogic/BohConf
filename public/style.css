@@ -121,6 +121,11 @@ hr {
 }
 #copyright {
 	text-align: right;
+        vertical-align: middle;
+        height: 25px;
+}
+#copyright a {
+        vertical-align: middle;
 }
 #smartlogic {
 	vertical-align: middle;
