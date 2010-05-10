@@ -26,6 +26,9 @@ a {
   color: #f00;
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 h1 {
   width: 960px;
   height: 275px;
