@@ -34,147 +34,126 @@
           <a id="when_where_link" href="#">When &amp; Where</a>
           <a id="about_link" href="#">About</a>
         </div>
-        
-        
 
-      <h2 id="about_h2">About BohConf</h2>
+      <h2 id="about_h2">About BohConf</h2><p class="back_to_top" href="#">Back to top</p>
 
-        <p class="back_to_top" href="#">Back to top</p>
+      <div id="about_container">
+        <script type="text/javascript">
+          function custommsg() {
+            /*
+            document.getElementById("form-message").style.display="";
+            document.getElementById("form-message").innerHTML='<p style="font-size: 24px;">Thanks!</p>';
+            document.getElementById("form-container").style.display="none";
+            */
+            document.getElementById("submit_button").value = "Thanks!";
+            document.getElementById("submit_button").disabled = "disabled";
+            document.getElementById("submit_button").style.color = "#BDD472";
+            document.getElementById("submit_button").style.cursor = "auto";
 
-		<div id="about_container">
-        	
-            
-            
-            
-        
-       		<script type="text/javascript">
-				function custommsg() {
-					/*
-					document.getElementById("form-message").style.display=""; 
-					document.getElementById("form-message").innerHTML='<p style="font-size: 24px;">Thanks!</p>';
-					document.getElementById("form-container").style.display="none";
-					*/
-					document.getElementById("submit_button").value = "Thanks!";
-					document.getElementById("submit_button").disabled = "disabled";
-					document.getElementById("submit_button").style.color = "#BDD472";
-					document.getElementById("submit_button").style.cursor = "auto";
-					
-				} 
-				function clearField1() {
-					var textfield = document.getElementById("text_field1");
-					if (textfield.value == "Enter your name") {
-						textfield.value = "";
-					}
-				}
-				function resetField1() {
-					var textfield = document.getElementById("text_field1");
-					if (textfield.value == "") {
-						textfield.value = "Enter your name";
-					}
-				}
-				function clearField2() {
-					var textfield = document.getElementById("text_field2");
-					if (textfield.value == "Enter your email address") {
-						textfield.value = "";
-					}
-				}
-				function resetField2() {
-					var textfield = document.getElementById("text_field2");
-					if (textfield.value == "") {
-						textfield.value = "Enter your email address";
-					}
-				}
-            </script>
-                
-                <div style="display: none;" id="form-message"></div>
-                <div id="form-container">
-                	<form action="" method="POST" target="fake-target" onsubmit="this.action='http://spreadsheets.google.com/formResponse?formkey=dE1oZnlsb1JQRkhpQk1nZkR5R3k0LWc6MQ'; custommsg(); return true;">
-                   
-                    	<h3>Enter your name and email address to receive news about BohConf!</h3>
-                        <input type="text" id="text_field1" class="text_field" name="entry.0.single" value="Enter your name" onfocus="clearField1();" onblur="resetField1();" /><br />
-                        
-                        <input type="text" id="text_field2" class="text_field" name="entry.1.single" value="Enter your email address" onfocus="clearField2();" onblur="resetField2();" /><br />
-        
-                        
-                        <input type="submit" id="submit_button" value="Submit" />
-                	</form>
-             	</div>
-                
-                <iframe src="#" id="fake-target" name="fake-target" style="width:0px; height:0px; border:0px;"></iframe>
-                
-                <div id="about_text_container">
-                
-                  <p>BohConf is the official <a href="http://en.oreilly.com/rails2010" target="_blank">RailsConf 2010</a> unconference. At BohConf, we're going to get our hands dirty writing code and sharing ideas in an open and free-form environment. This hacking-centric event will include community code drives featuring well known OSS authors, a code retreat, a programming competition, and barcamp-style discussions. It is <strong>free</strong> and will run alongside RailsConf in the convention center. <strong>Anyone is welcome</strong> at BohConf.</p>
-                  <p class='trailing'>You can track updates and developments by following us on <a href="http://twitter.com/bohconf">Twitter</a> and by contributing to <a href="http://wiki.github.com/smartlogic/BohConf/">the BohConf wiki</a>. Your input will shape this event.</p>
-	            </div>
-                <div class="clear">&nbsp;</div>
-                
-		</div>
-        
-        <h2 id="when_where_h2">When &amp; Where</h2>
+          }
+          function clearField1() {
+            var textfield = document.getElementById("text_field1");
+            if (textfield.value == "Enter your name") {
+              textfield.value = "";
+            }
+          }
+          function resetField1() {
+            var textfield = document.getElementById("text_field1");
+            if (textfield.value == "") {
+              textfield.value = "Enter your name";
+            }
+          }
+          function clearField2() {
+            var textfield = document.getElementById("text_field2");
+            if (textfield.value == "Enter your email address") {
+              textfield.value = "";
+            }
+          }
+          function resetField2() {
+            var textfield = document.getElementById("text_field2");
+            if (textfield.value == "") {
+              textfield.value = "Enter your email address";
+            }
+          }
+        </script>
 
-        <p class="back_to_top" href="#">Back to top</p>
-
-        <p>BohConf will be held at the <a href="http://www.bccenter.org" target="_blank">Baltimore Convention Center</a>, June 7 - 9, 2010.</p>
-
-        <h2 id="what_is_boh_h2">What is Boh?</h2>
-
-        <p class="back_to_top" href="#">Back to top</p>
-
-        <p>The name BohConf is an homage to the Baltimore institution <a href="http://nationalbohemian.com/" target="_blank">National Bohemian</a> (or Natty Boh).  Every town has their local light beer of choice, and ours is Natty Boh.  Make sure to grab one (or several) when you're in town.</p>
-
-        <div class="gallery">
-          <ul>
-            <li><a href="http://www.flickr.com/photos/cizauskas/4084079963/" title="Mr Boh by cizauskas, on Flickr"><img src="http://farm3.static.flickr.com/2504/4084079963_c72dcfa0a4.jpg" width="500" height="376" alt="Mr Boh" /> </a> </li>
-            <li><a href="http://www.flickr.com/photos/nifkin/3853314882/" title="Dillon St &amp;amp; S Dean St, Baltimore, MD 21224, United States by MRaichelson, on Flickr"><img src="http://farm4.static.flickr.com/3419/3853314882_09bc9c90ed.jpg" width="500" height="375" alt="Dillon St &amp;amp; S Dean St, Baltimore, MD 21224, United States" /></a></li>
-            <li><a href="http://www.flickr.com/photos/pandabrand/2134539912/" title="Natty Boh by pandabrand, on Flickr"><img src="http://farm3.static.flickr.com/2377/2134539912_9ed64c76fe.jpg" width="500" height="375" alt="Natty Boh" /></a></li>
-            <li><a href="http://www.flickr.com/photos/bcostin/567515119/" title="Stadium Lounge by bcostin, on Flickr"><img src="http://farm2.static.flickr.com/1099/567515119_7bd87d0b19.jpg" width="500" height="317" alt="Stadium Lounge" /></a></li>
-            <li><a href="http://www.flickr.com/photos/scottobear/2292268545/" title="S6301427 by scottobear, on Flickr"><img src="http://farm3.static.flickr.com/2064/2292268545_278d463eb6.jpg" width="500" height="375" alt="S6301427" /></a></li>
-            <li><a href="http://www.flickr.com/photos/pwbaker/2190915842/" title="natty boh by pwbaker, on Flickr"><img src="http://farm3.static.flickr.com/2147/2190915842_3c7fc35a49.jpg" width="500" height="372" alt="natty boh" /></a></li>
-          </ul>
+        <div style="display: none;" id="form-message"></div>
+        <div id="form-container">
+          <form action="" method="POST" target="fake-target" onsubmit="this.action='http://spreadsheets.google.com/formResponse?formkey=dE1oZnlsb1JQRkhpQk1nZkR5R3k0LWc6MQ'; custommsg(); return true;">
+            <h3>Enter your name and email address to receive news about BohConf!</h3>
+            <input type="text" id="text_field1" class="text_field" name="entry.0.single" value="Enter your name" onfocus="clearField1();" onblur="resetField1();" /><br />
+            <input type="text" id="text_field2" class="text_field" name="entry.1.single" value="Enter your email address" onfocus="clearField2();" onblur="resetField2();" /><br />
+            <input type="submit" id="submit_button" value="Submit" />
+          </form>
         </div>
+        <iframe src="#" id="fake-target" name="fake-target" style="width:0px; height:0px; border:0px;"></iframe>
 
-        <h2 id="sessions_h2">Sessions</h2>
+        <div id="about_text_container">
+          <p>BohConf is the official <a href="http://en.oreilly.com/rails2010" target="_blank">RailsConf 2010</a> unconference. At BohConf, we're going to get our hands dirty writing code and sharing ideas in an open and free-form environment. This hacking-centric event will include community code drives featuring well known OSS authors, a code retreat, a programming competition, and barcamp-style discussions. It is <strong>free</strong> and will run alongside RailsConf in the convention center. <strong>Anyone is welcome</strong> at BohConf.</p>
+          <p class='trailing'>You can track updates and developments by following us on <a href="http://twitter.com/bohconf">Twitter</a> and by contributing to <a href="http://wiki.github.com/smartlogic/BohConf/">the BohConf wiki</a>. Your input will shape this event.</p>
+        </div>
+        <div class="clear">&nbsp;</div>
+      </div>
 
-        <p class="back_to_top" href="#">Back to top</p>
+      <h2 id="when_where_h2">When &amp; Where</h2> <p class="back_to_top" href="#">Back to top</p>
 
-                  <h3>Community Code Drive</h3>
-                    <p>The Community Code Drive is a place to meet and work with the authors of many popular open source projects. Come to help hack on code, find and fix bugs, or just watch a seasoned developer at work. Featured OSS authors will be announced soon!</p>
+      <p>BohConf will be held at the <a href="http://www.bccenter.org" target="_blank">Baltimore Convention Center</a>, June 7 - 9, 2010.</p>
 
-                  <h3>Code Retreat</h3>
-                    <p>Code. Rinse. Repeat. As professional developers we're often coding for profit and rarely coding for practice. In a Code Retreat we'll sharpen our coding skills with a set of exercises done in pairs, and we'll start fresh every time.</p>
+      <h2 id="what_is_boh_h2">What is Boh?</h2> <p class="back_to_top" href="#">Back to top</p>
 
-                  <h3>Programming Contest</h3>
-                    <p>Come flex your coding muscles with a data visualization challenge! We'll unveil a dataset and give participants 24 hours to do whatever they want with it. It doesn't have to be rails (or even a website) but it does have to be cool! Prizes will include (TBD: conference tickets, beer, swag, a certificate of merit, gift certificates, etc)</p>
+      <p>The name BohConf is an homage to the Baltimore institution <a href="http://nationalbohemian.com/" target="_blank">National Bohemian</a> (or Natty Boh).  Every town has their local light beer of choice, and ours is Natty Boh.  Make sure to grab one (or several) when you're in town.</p>
 
-                  <h3>Ruby and Art</h3>
-                    <p>Do you like ruby? Do you like art? Do you like taking two things that you like, and then sticking them together to make a bigger thing you like even more? We'll be experimenting with visual art, music, games, and of course, Ruby!</p>
+      <div class="gallery">
+        <ul>
+          <li><a href="http://www.flickr.com/photos/cizauskas/4084079963/" title="Mr Boh by cizauskas, on Flickr"><img src="http://farm3.static.flickr.com/2504/4084079963_c72dcfa0a4.jpg" width="500" height="376" alt="Mr Boh" /> </a> </li>
+          <li><a href="http://www.flickr.com/photos/nifkin/3853314882/" title="Dillon St &amp;amp; S Dean St, Baltimore, MD 21224, United States by MRaichelson, on Flickr"><img src="http://farm4.static.flickr.com/3419/3853314882_09bc9c90ed.jpg" width="500" height="375" alt="Dillon St &amp;amp; S Dean St, Baltimore, MD 21224, United States" /></a></li>
+          <li><a href="http://www.flickr.com/photos/pandabrand/2134539912/" title="Natty Boh by pandabrand, on Flickr"><img src="http://farm3.static.flickr.com/2377/2134539912_9ed64c76fe.jpg" width="500" height="375" alt="Natty Boh" /></a></li>
+          <li><a href="http://www.flickr.com/photos/bcostin/567515119/" title="Stadium Lounge by bcostin, on Flickr"><img src="http://farm2.static.flickr.com/1099/567515119_7bd87d0b19.jpg" width="500" height="317" alt="Stadium Lounge" /></a></li>
+          <li><a href="http://www.flickr.com/photos/scottobear/2292268545/" title="S6301427 by scottobear, on Flickr"><img src="http://farm3.static.flickr.com/2064/2292268545_278d463eb6.jpg" width="500" height="375" alt="S6301427" /></a></li>
+          <li><a href="http://www.flickr.com/photos/pwbaker/2190915842/" title="natty boh by pwbaker, on Flickr"><img src="http://farm3.static.flickr.com/2147/2190915842_3c7fc35a49.jpg" width="500" height="372" alt="natty boh" /></a></li>
+        </ul>
+      </div>
 
-                  <h3>Barcamp</h3>
-                    <p>A Barcamp is a "user generated conference", so there's structure without an agenda. Bring your own questions and your own answers, and we'll hold our own BohCamp.</p>
-        <h2 id="social_media_h2">Social Media and Related Links</h2>
+      <h2 id="sessions_h2">Sessions</h2> <p class="back_to_top" href="#">Back to top</p>
 
-        <p class="back_to_top" href="#">Back to top</p>
+      <h3>Community Code Drive</h3>
+      <p>The Community Code Drive is a place to meet and work with the authors of many popular open source projects. Come to help hack on code, find and fix bugs, or just watch a seasoned developer at work. Featured OSS authors will be announced soon!</p>
 
-            <div id="icon_container">
+      <h3>Code Retreat</h3>
+      <p>Code. Rinse. Repeat. As professional developers we're often coding for profit and rarely coding for practice. In a Code Retreat we'll sharpen our coding skills with a set of exercises done in pairs, and we'll start fresh every time.</p>
 
-            <a href="http://www.twitter.com/bohconf" target="_blank">
-              <img class="media_icons" src="/images/twitter.png" alt="Twitter" />
-            </a>
+      <h3>Programming Contest</h3>
+      <p>Come flex your coding muscles with a data visualization challenge! We'll unveil a dataset and give participants 24 hours to do whatever they want with it. It doesn't have to be rails (or even a website) but it does have to be cool! Prizes will include (TBD: conference tickets, beer, swag, a certificate of merit, gift certificates, etc)</p>
 
-            <a href="http://www.facebook.com/bohconf" target="_blank">
-              <img class="media_icons" src="/images/facebook.png" alt="Facebook" />
-             </a>
+      <h3>Ruby and Art</h3>
+      <p>Do you like ruby? Do you like art? Do you like taking two things that you like, and then sticking them together to make a bigger thing you like even more? We'll be experimenting with visual art, music, games, and of course, Ruby!</p>
 
-            <a href="http://bmoreonrails.org/" target="_blank">
-              <img class="media_icons" src="/images/bmore_on_rails.png" alt="BMore on Rails" />
-             </a>
+      <h3>Barcamp</h3>
+      <p>A Barcamp is a "user generated conference", so there's structure without an agenda. Bring your own questions and your own answers, and we'll hold our own BohCamp.</p>
 
-            <a href="http://bmoreonrails.org/stay-with-a-local/" target="_blank">
-              <img class="media_icons" src="/images/stay_with_a_local.png" alt="Stay with a Local" />
-             </a>
+      <h2 id="social_media_h2">Social Media and Related Links</h2>
 
-            </div>
+      <p class="back_to_top" href="#">Back to top</p>
+
+      <div id="icon_container">
+
+      <a href="http://www.twitter.com/bohconf" target="_blank">
+        <img class="media_icons" src="/images/twitter.png" alt="Twitter" />
+      </a>
+
+      <a href="http://www.facebook.com/bohconf" target="_blank">
+        <img class="media_icons" src="/images/facebook.png" alt="Facebook" />
+       </a>
+
+      <a href="http://bmoreonrails.org/" target="_blank">
+        <img class="media_icons" src="/images/bmore_on_rails.png" alt="BMore on Rails" />
+       </a>
+
+      <a href="http://bmoreonrails.org/stay-with-a-local/" target="_blank">
+        <img class="media_icons" src="/images/stay_with_a_local.png" alt="Stay with a Local" />
+       </a>
+
+      </div>
 
     <hr />
 
