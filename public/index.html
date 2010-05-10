@@ -34,13 +34,84 @@
           <a id="when_where_link" href="#">When &amp; Where</a>
           <a id="about_link" href="#">About</a>
         </div>
+        
+        
 
       <h2 id="about_h2">About BohConf</h2>
 
         <p class="back_to_top" href="#">Back to top</p>
 
-        <p>BohConf is the official <a href="http://en.oreilly.com/rails2010" target="_blank">RailsConf 2010</a> unconference. At BohConf, we're going to get our hands dirty writing code and sharing ideas in an open and free-form environment. This hacking-centric event will include community code drives featuring well known OSS authors, a code retreat, a programming competition, and barcamp-style discussions. It is <strong>free</strong> and will run alongside RailsConf in the convention center. <strong>Anyone is welcome</strong> at BohConf.</p>
-
+		<div id="about_container">
+        	
+            
+            
+            
+        
+       		<script type="text/javascript">
+				function custommsg() {
+					/*
+					document.getElementById("form-message").style.display=""; 
+					document.getElementById("form-message").innerHTML='<p style="font-size: 24px;">Thanks!</p>';
+					document.getElementById("form-container").style.display="none";
+					*/
+					document.getElementById("submit_button").value = "Thanks!";
+					document.getElementById("submit_button").disabled = "disabled";
+					document.getElementById("submit_button").style.color = "#BDD472";
+					document.getElementById("submit_button").style.cursor = "auto";
+					
+				} 
+				function clearField1() {
+					var textfield = document.getElementById("text_field1");
+					if (textfield.value == "Enter your name") {
+						textfield.value = "";
+					}
+				}
+				function resetField1() {
+					var textfield = document.getElementById("text_field1");
+					if (textfield.value == "") {
+						textfield.value = "Enter your name";
+					}
+				}
+				function clearField2() {
+					var textfield = document.getElementById("text_field2");
+					if (textfield.value == "Enter your email address") {
+						textfield.value = "";
+					}
+				}
+				function resetField2() {
+					var textfield = document.getElementById("text_field2");
+					if (textfield.value == "") {
+						textfield.value = "Enter your email address";
+					}
+				}
+            </script>
+                
+                <div style="display: none;" id="form-message"></div>
+                <div id="form-container">
+                	<form action="" method="POST" target="fake-target" onsubmit="this.action='http://spreadsheets.google.com/formResponse?formkey=dE1oZnlsb1JQRkhpQk1nZkR5R3k0LWc6MQ'; custommsg(); return true;">
+                   
+                    	<h3>Enter your name and email address to receive news about BohConf!</h3>
+                        <input type="text" id="text_field1" class="text_field" name="entry.0.single" value="Enter your name" onfocus="clearField1();" onblur="resetField1();" /><br />
+                        
+                        <input type="text" id="text_field2" class="text_field" name="entry.1.single" value="Enter your email address" onfocus="clearField2();" onblur="resetField2();" /><br />
+        
+                        
+                        <input type="submit" id="submit_button" value="Submit" />
+                	</form>
+             	</div>
+                
+                <iframe src="#" id="fake-target" name="fake-target" style="width:0px; height:0px; border:0px;"></iframe>
+                
+                <div id="about_text_container">
+                
+    	          <p>BohConf is the official <a href="http://en.oreilly.com/rails2010" target="_blank">RailsConf 2010</a> unconference. At BohConf, we're going to get our hands dirty writing code and sharing ideas in an open and free-form environment. This hacking-centric event will include community code drives featuring well known OSS authors, a code retreat, a programming competition, and barcamp-style discussions. It is <strong>free</strong> and will run alongside RailsConf in the convention center. <strong>Anyone is welcome</strong> at BohConf.</p>  
+	            </div>
+                <div class="clear">&nbsp;</div>
+                
+		</div>
+        
+        
+        
         <h2 id="when_where_h2">When &amp; Where</h2>
 
         <p class="back_to_top" href="#">Back to top</p>
