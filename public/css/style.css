@@ -172,9 +172,7 @@ input {
 	color: #63C;
 }
 #icon_container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 560px;
+  text-align: center;
 }
 .media_icons {
   padding: 15px 25px 30px 25px;
@@ -197,9 +195,11 @@ input {
 
 .gallery {
   padding: 5px 30px;
+  text-align: center;
 }
 .gallery li {
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: inline; 
 }
 
