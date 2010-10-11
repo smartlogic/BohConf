@@ -76,7 +76,7 @@ hr {
   border: solid 1px #000;
 }
 input {
-	margin: 8px auto;
+  margin: 8px auto;
 }
 #main_container {
   margin: 0px auto;
@@ -122,54 +122,54 @@ input {
   margin: -57px 0 0 0 ;
 }
 #about_container {
-	clear: both;
+  clear: both;
 }
 #about_container #form-container, #about_container #form-message {
-	width: 324px;
-	background-color: #BDD472;
-	border: double 8px #fff;
-	padding: 15px;
-	float: right;
-	text-align: center;
-	margin: 30px;
+  width: 324px;
+  background-color: #BDD472;
+  border: double 8px #fff;
+  padding: 15px;
+  float: right;
+  text-align: center;
+  margin: 30px;
 }
 #about_container #form-container h3 {
-	padding: 10px 0px;
+  padding: 10px 0px;
 }
 #about_container #form-container p {
-	width: 264px;
-	text-align: center;
+  width: 264px;
+  text-align: center;
 }
 #about_container #about_text_container {
-	width: 500px;
-	float: left;
+  width: 500px;
+  float: left;
 }
 #about_container #about_text_container p {
-	padding: 30px 0 30px 30px;
+  padding: 30px 0 30px 30px;
 }
 .text_field {
-	width: 300px;
-	height: 24px;
-	padding-left: 10px;
-	font-size: 16px;
-	color: #999;
+  width: 300px;
+  height: 24px;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #999;
 }
 #submit_button {
-	color: #f00;
-	background-color: #fff;
-	border: double 8px #BDD472;
-	font-size: 20px;
-	padding: 4px 40px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	cursor: hand;
-	cursor: pointer;
+  color: #f00;
+  background-color: #fff;
+  border: double 8px #BDD472;
+  font-size: 20px;
+  padding: 4px 40px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  cursor: hand;
+  cursor: pointer;
 }
 #submit_button:hover {
-	color: #BDD472;
+  color: #BDD472;
 }
 #form-message {
-	color: #63C;
+  color: #63C;
 }
 #icon_container {
   text-align: center;
@@ -200,7 +200,7 @@ input {
 .gallery li {
   padding-left: 10px;
   padding-right: 10px;
-  display: inline; 
+  display: inline;
 }
 
 .color {
@@ -222,4 +222,9 @@ input {
 .clear {
   clear:both;
   height: 1px;
+}
+
+#upcoming_container img {
+  display: block;
+  margin: 0 auto;
 }
