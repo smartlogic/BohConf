@@ -3,9 +3,10 @@
 
 
 body {
-  background-color: #fff;
-  background-image: url("/images/carbon_tile.png");
-  background-attachment: fixed;
+  background-color: #000;
+  background-image: url("../images/background.png");
+  background-repeat: repeat-y;
+  background-position: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 p {
@@ -20,7 +21,7 @@ p.trailing {
 }
 @font-face {
   font-family: fontin;
-  src: url("/fontin_b.otf");
+  src: url("../fontin_b.otf");
 }
 a {
   color: #f00;
@@ -31,8 +32,8 @@ a:hover {
 }
 h1 {
   width: 960px;
-  height: 275px;
-  background-image: url("/images/h1_v2.png");
+  height: 300px;
+  background-image: url("../images/boh_header_2011.png");
   background-repeat: no-repeat;
   text-indent: -9999px;
 }
@@ -45,13 +46,8 @@ h2 {
   background-color: #000;
   padding: 4px 0px 4px 30px;
   width: 930px;
-  border-top: double 6px #fff;
-  border-bottom: double 6px #fff;
-  margin: 12px 0px;
+  margin: 24px 0 0 0;
   clear: both;
-  border-image: url(/images/h2_border.png) 8 0 8 0 stretch stretch;
-  -webkit-border-image: url(/images/h2_border.png) 8 0 8 0 stretch stretch;
-  -moz-border-image: url(/images/h2_border.png) 8 0 8 0 stretch stretch;
 }
 h3 {
   font-size: 16px;
@@ -80,14 +76,13 @@ input {
 }
 #main_container {
   margin: 0px auto;
-  background-image: url("/images/shadow.png");
+  /*background-image: url("../images/shadow2.png");*/
   background-position: center;
   background-repeat: repeat-y;
 }
 #content {
   width: 960px;
   margin: 0px auto;
-  background-color: #fff;
 }
 #tab_container {
   width: 695px;
@@ -119,14 +114,19 @@ input {
   float: right;
   cursor: hand;
   cursor: pointer;
-  margin: -57px 0 0 0 ;
+  margin: -40px 0 0 0 ;
 }
+
+.section {
+	background-color: #fff;
+}
+
 #about_container {
   clear: both;
 }
 #about_container #form-container, #about_container #form-message {
   width: 324px;
-  background-color: #BDD472;
+  background-color: #FF5A41;
   border: double 8px #fff;
   padding: 15px;
   float: right;
@@ -157,7 +157,7 @@ input {
 #submit_button {
   color: #f00;
   background-color: #fff;
-  border: double 8px #BDD472;
+  border: double 8px #FF5A41;
   font-size: 20px;
   padding: 4px 40px;
   -moz-border-radius: 8px;
