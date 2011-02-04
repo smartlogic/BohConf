@@ -10,7 +10,7 @@ $(document).ready(function(){
 
   $("#tab_container a").hover(
     function() {
-      $(this).animate({backgroundColor: "#ff0000"}, 300);
+      $(this).animate({backgroundColor: "#FF4923"}, 300);
     },
     function() {
       $(this).animate({backgroundColor: "#000000"}, 300);
@@ -41,7 +41,7 @@ $(document).ready(function(){
     $('html, body').animate({scrollTop: $("h1").offset().top}, 700);
   });
 
-  $('.gallery img').each(function () {
+  $('#bohconf_2010_gallery img').each(function () {
     var img = $(this),
         pre_w = img.width() * 1.0,
         pre_h = img.height() * 1.0;
@@ -58,6 +58,29 @@ $(document).ready(function(){
       })
       .attr('href', img.attr('src'));
   });
-  $('.gallery a').lightBox();
+  $('#bohconf_2010_gallery a').lightBox();
+  
+  
+  $('#what_is_boh_gallery img').each(function () {
+    var img = $(this),
+        pre_w = img.width() * 1.0,
+        pre_h = img.height() * 1.0;
+
+    // constrain preview size
+    img
+      .width( 120 )
+      .height( pre_h * (120.0 / pre_w));
+
+    // convert link into lightbox compatible form
+    img.closest('a')
+      .attr('title', function (n, old) {
+        return "<a href='" + $(this).attr('href') + "' target='_blank'>" + old + "</a>";
+      })
+      .attr('href', img.attr('src'));
+  });
+  $('#what_is_boh_gallery a').lightBox();
+  
 });
+
+
 

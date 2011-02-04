@@ -7,22 +7,20 @@ body {
   background-image: url("../images/background.png");
   background-repeat: repeat-y;
   background-position: center;
-  font-family: Arial, Helvetica, sans-serif;
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
 }
 p {
   font-size: 14px;
   line-height: 20px;
   font-family: Verdana, Geneva, sans-serif;
-  padding: 30px;
+  padding: 0 0 20px 0;
   color: #000;
 }
 p.trailing {
-  padding: 0 30px 30px 30px;
+  padding: 0 30px;
 }
-@font-face {
-  font-family: fontin;
-  src: url("../fontin_b.otf");
-}
+
 a {
   color: #f00;
   text-decoration: none;
@@ -31,20 +29,20 @@ a:hover {
   text-decoration: underline;
 }
 h1 {
-  width: 960px;
-  height: 300px;
+  width: 1001px;
+  height: 336px;
   background-image: url("../images/boh_header_2011.png");
   background-repeat: no-repeat;
   text-indent: -9999px;
+  margin-bottom: 100px;
 }
 h2 {
   color: #fff;
-  font-family: fontin, times, serif;
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 1.5px;
   background-color: #000;
-  padding: 4px 0px 4px 30px;
+  padding: 10px 0px 10px 30px;
   width: 930px;
   margin: 24px 0 0 0;
   clear: both;
@@ -76,7 +74,6 @@ input {
 }
 #main_container {
   margin: 0px auto;
-  /*background-image: url("../images/shadow2.png");*/
   background-position: center;
   background-repeat: repeat-y;
 }
@@ -85,10 +82,11 @@ input {
   margin: 0px auto;
 }
 #tab_container {
-  width: 695px;
   position: absolute;
-  top: 242px;
-  border-top: solid 1px #000;
+  top: 350px;
+  width: 960px;
+  background-color: #000;
+  -webkit-box-shadow: 0 3px 10px #000;
 }
 #tab_container a {
   font-size: 16px;
@@ -97,17 +95,12 @@ input {
   text-decoration: none;
   color: #fff;
   background-color: #000;
-  padding: 4px 15px 6px 15px;
-  margin: 0px 16px 8px 0px;
+  padding: 4px 24px;
   position: relative;
-  -moz-border-radius-bottomleft: 8px;
-  -moz-border-radius-bottomright: 8px;
-  -webkit-border-bottom-left-radius: 8px;
-  -webkit-border-bottom-right-radius: 8px;
-  float: right;
+  display: inline-block;
 }
 .back_to_top {
-  color: #fff;
+  color: #ffd700;
   padding: 15px 30px;
   font-size: 14px;
   line-height: normal;
@@ -118,25 +111,31 @@ input {
 }
 
 .section {
-	background-color: #fff;
+	background-color: #ffc8aa;
+	-webkit-box-shadow: 0 5px 10px #000;
+	padding: 30px;
+}
+
+.section p:last-child {
+	padding: 0;
 }
 
 #about_container {
-  clear: both;
+  
 }
-#about_container #form-container, #about_container #form-message {
+#form-container, #form-message {
   width: 324px;
   background-color: #FF5A41;
   border: double 8px #fff;
   padding: 15px;
-  float: right;
   text-align: center;
-  margin: 30px;
+  margin-right: 30px;
+  float: left;
 }
-#about_container #form-container h3 {
+#form-container h3 {
   padding: 10px 0px;
 }
-#about_container #form-container p {
+#form-container p {
   width: 264px;
   text-align: center;
 }
@@ -144,20 +143,25 @@ input {
   width: 500px;
   float: left;
 }
-#about_container #about_text_container p {
-  padding: 30px 0 30px 30px;
-}
+
 .text_field {
   width: 300px;
   height: 24px;
   padding-left: 10px;
+  margin: 6px 0;
   font-size: 16px;
   color: #999;
 }
+
+#form-container textarea {
+	width: 311px;
+	height: 60px;
+	margin: 6px 0;
+}
+
 #submit_button {
-  color: #f00;
+  color: #FF5A41;
   background-color: #fff;
-  border: double 8px #FF5A41;
   font-size: 20px;
   padding: 4px 40px;
   -moz-border-radius: 8px;
@@ -166,7 +170,7 @@ input {
   cursor: pointer;
 }
 #submit_button:hover {
-  color: #BDD472;
+  color: #999;
 }
 #form-message {
   color: #63C;
@@ -194,13 +198,16 @@ input {
 }
 
 .gallery {
-  padding: 5px 30px;
   text-align: center;
 }
 .gallery li {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 8px;
   display: inline;
+}
+
+.gallery img {
+	border: solid 2px #000;
+	padding: 1px;
 }
 
 .color {
