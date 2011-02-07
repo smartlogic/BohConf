@@ -80,6 +80,25 @@ $(document).ready(function(){
   });
   $('#what_is_boh_gallery a').lightBox();
   
+  $('#promotional_materials img').each(function () {
+    var img = $(this),
+        pre_w = img.width() * 1.0,
+        pre_h = img.height() * 1.0;
+
+    // constrain preview size
+    img
+      .width( 120 )
+      .height( pre_h * (120.0 / pre_w));
+
+    // convert link into lightbox compatible form
+    img.closest('a')
+      .attr('title', function (n, old) {
+        return "<a href='" + $(this).attr('href') + "' target='_blank'>" + old + "</a>";
+      })
+      .attr('href', img.attr('src'));
+  });
+  $('#promotional_materials a').lightBox();
+  
 });
 
 
