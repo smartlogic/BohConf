@@ -17,6 +17,9 @@ $(document).ready(function(){
     }
   );
 
+	$("#whats_new_link").click(function() {
+    	$('html, body').animate({scrollTop: $("#whats_new_h2").offset().top}, 700);
+  });	
   $("#about_link").click(function() {
     $('html, body').animate({scrollTop: $("#about_h2").offset().top}, 700);
   });
@@ -31,6 +34,10 @@ $(document).ready(function(){
 
   $("#what_is_boh_link").click(function() {
     $('html, body').animate({scrollTop: $("#what_is_boh_h2").offset().top}, 700);
+  });
+  
+  $("#ignite_link").click(function() {
+    $('html, body').animate({scrollTop: $("#ignite_h2").offset().top}, 700);
   });
 
   $("#social_media_link").click(function() {
