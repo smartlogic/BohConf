@@ -75,8 +75,8 @@ $(document).ready(function(){
 
     // constrain preview size
     img
-      .width( 120 )
-      .height( pre_h * (120.0 / pre_w));
+      .width( pre_w * (90.0 / pre_h))
+      .height(90);
 
     // convert link into lightbox compatible form
     img.closest('a')
@@ -94,8 +94,8 @@ $(document).ready(function(){
 
     // constrain preview size
     img
-      .width( 120 )
-      .height( pre_h * (120.0 / pre_w));
+      .width(pre_w * (150.0 / pre_h))
+      .height(150);
 
     // convert link into lightbox compatible form
     img.closest('a')

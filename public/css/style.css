@@ -204,6 +204,15 @@ input {
   color: #63C;
 }
 
+#bohconf_2010_gallery {
+	padding-bottom: 10px;
+}
+
+#promotional_materials {
+	border-top: dashed 1px #000;
+	padding-top: 10px;
+}
+
 .sessions h3 {
 	border-top: dashed 1px #000;
 	padding: 10px 0 0 0;
