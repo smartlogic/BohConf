@@ -3,25 +3,24 @@
 
 
 body {
-  background-color: #fff;
-  background-image: url("/images/carbon_tile.png");
+  background-color: #000;
+  background-image: url("../images/background.png");
+  background-repeat: repeat-y;
+  background-position: center;
   background-attachment: fixed;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 p {
   font-size: 14px;
   line-height: 20px;
   font-family: Verdana, Geneva, sans-serif;
-  padding: 30px;
+  padding: 0 0 20px 0;
   color: #000;
 }
 p.trailing {
-  padding: 0 30px 30px 30px;
+  padding: 0 30px;
 }
-@font-face {
-  font-family: fontin;
-  src: url("/fontin_b.otf");
-}
+
 a {
   color: #f00;
   text-decoration: none;
@@ -30,32 +29,27 @@ a:hover {
   text-decoration: underline;
 }
 h1 {
-  width: 960px;
-  height: 275px;
-  background-image: url("/images/h1_v2.png");
+  width: 1001px;
+  height: 336px;
+  background-image: url("../images/boh_header_2011.png");
   background-repeat: no-repeat;
   text-indent: -9999px;
+  margin-bottom: 70px;
 }
 h2 {
   color: #fff;
-  font-family: fontin, times, serif;
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 1.5px;
   background-color: #000;
-  padding: 4px 0px 4px 30px;
-  width: 930px;
-  border-top: double 6px #fff;
-  border-bottom: double 6px #fff;
-  margin: 12px 0px;
+  padding: 10px 30px;
+  width: 900px;
+  margin: 24px 0 0 0;
   clear: both;
-  border-image: url(/images/h2_border.png) 8 0 8 0 stretch stretch;
-  -webkit-border-image: url(/images/h2_border.png) 8 0 8 0 stretch stretch;
-  -moz-border-image: url(/images/h2_border.png) 8 0 8 0 stretch stretch;
 }
 h3 {
   font-size: 16px;
-  padding: 5px 30px;
+  padding-bottom: 10px;
   line-height: 22px;
 }
 table {
@@ -78,22 +72,17 @@ hr {
 input {
   margin: 8px auto;
 }
+
 #main_container {
-  margin: 0px auto;
-  background-image: url("/images/shadow.png");
-  background-position: center;
-  background-repeat: repeat-y;
-}
-#content {
   width: 960px;
   margin: 0px auto;
-  background-color: #fff;
 }
 #tab_container {
-  width: 695px;
   position: absolute;
-  top: 242px;
-  border-top: solid 1px #000;
+  top: 350px;
+  width: 960px;
+  background-color: #000;
+  -webkit-box-shadow: 0 3px 10px #000;
 }
 #tab_container a {
   font-size: 16px;
@@ -102,75 +91,140 @@ input {
   text-decoration: none;
   color: #fff;
   background-color: #000;
-  padding: 4px 15px 6px 15px;
-  margin: 0px 16px 8px 0px;
+  padding: 4px 16px;
   position: relative;
-  -moz-border-radius-bottomleft: 8px;
-  -moz-border-radius-bottomright: 8px;
-  -webkit-border-bottom-left-radius: 8px;
-  -webkit-border-bottom-right-radius: 8px;
-  float: right;
+  display: inline-block;
 }
 .back_to_top {
-  color: #fff;
-  padding: 15px 30px;
+  color: #ffd700;
   font-size: 14px;
   line-height: normal;
   float: right;
   cursor: hand;
   cursor: pointer;
-  margin: -57px 0 0 0 ;
+  margin: -30px 30px 0 0;
 }
+.back_to_top:hover {
+	color: #ff4923;
+}
+
+.section {
+	background-color: #ffc8aa;
+	-webkit-box-shadow: 0 5px 10px #000;
+	-moz-box-shadow: 0 5px 10px #000;
+	padding: 20px 30px;
+}
+
+.section p:last-child {
+	padding: 0;
+}
+
 #about_container {
-  clear: both;
+  
 }
-#about_container #form-container, #about_container #form-message {
+#form-container, #form-message {
   width: 324px;
-  background-color: #BDD472;
-  border: double 8px #fff;
+  background-color: #3f0000;
+  border: double 4px #ff4923;
   padding: 15px;
-  float: right;
   text-align: center;
-  margin: 30px;
+  margin-right: 30px;
+  float: left;
+  -webkit-box-shadow: inset 0 0 25px #000000;
 }
-#about_container #form-container h3 {
+#form-container h3 {
+	color: #fff;
   padding: 10px 0px;
 }
-#about_container #form-container p {
-  width: 264px;
-  text-align: center;
+#form-container p {
+	color: #fff;
+	margin-top: 6px;
+	padding: 0;
 }
 #about_container #about_text_container {
-  width: 500px;
+  width: 570px;
+  margin-right: 30px;
   float: left;
 }
-#about_container #about_text_container p {
-  padding: 30px 0 30px 30px;
-}
+
 .text_field {
   width: 300px;
   height: 24px;
   padding-left: 10px;
+  margin: 6px 0;
   font-size: 16px;
-  color: #999;
+  color: #000;
+  background-color: #ffd700;
+  border: 0;
+  border-bottom: solid 4px #ff4923;	
 }
+
+#form-container textarea {
+	width: 311px;
+	height: 60px;
+	margin: 6px 0;
+	background-color: #ffd700;
+	border: 0;
+	border-bottom: solid 4px #ff4923;
+}
+
+#form-container .text_field:focus, #form-container textarea:focus {
+	background-color: #fff;
+}
+
 #submit_button {
-  color: #f00;
-  background-color: #fff;
-  border: double 8px #BDD472;
+  color: #fff;
+  text-shadow: -1px -1px 0 #7f0000;
+  background-color: #000;
   font-size: 20px;
   padding: 4px 40px;
+  border: 0;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   cursor: hand;
   cursor: pointer;
+  background: -webkit-gradient(linear, 0% 10%, 0% 100%, from(#ff4923), to(#7f0000));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+	border-top: solid 1px #ff9999;
+	border-bottom: solid 1px #0f0000;
+	-webkit-box-shadow: inset 0 0 5px #000000;
 }
 #submit_button:hover {
-  color: #BDD472;
+	background: -webkit-gradient(linear, 0% 10%, 0% 100%, from(#f00), to(#7f0000));
 }
+#submit_button:active {
+	color: #f99;
+	text-shadow: -1px -1px 0 #0f0000;
+	background: -webkit-gradient(linear, 0% 10%, 0% 100%, from(#7f0000), to(#a00));
+	border-top: solid 1px #0f0000;
+}
+
 #form-message {
   color: #63C;
 }
+
+#bohconf_2010_gallery {
+	padding-bottom: 10px;
+}
+
+#promotional_materials {
+	border-top: dashed 1px #000;
+	padding-top: 10px;
+}
+
+.sessions h3 {
+	border-top: dashed 1px #000;
+	padding: 10px 0 0 0;
+}
+.sessions h3:first-child {
+	border: 0;
+	padding: 0;
+}
+.sessions p {
+	padding: 10px 0;
+}
+
 #icon_container {
   text-align: center;
 }
@@ -178,9 +232,11 @@ input {
   padding: 15px 25px 30px 25px;
 }
 #copyright {
+	color: #fff;
   text-align: right;
   vertical-align: middle;
   height: 25px;
+  margin-top: 20px;
 }
 #copyright a {
         vertical-align: middle;
@@ -193,14 +249,22 @@ input {
   margin-top: -8px;
 }
 
+#bohconf_2010_gallery {
+	width: 290px;
+	float: right;
+}
+
 .gallery {
-  padding: 5px 30px;
   text-align: center;
 }
 .gallery li {
-  padding-left: 10px;
-  padding-right: 10px;
-  display: inline;
+  padding: 8px;
+  display: inline-block;
+}
+
+.gallery img {
+	border: solid 2px #000;
+	padding: 1px;
 }
 
 .color {
