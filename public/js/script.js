@@ -40,8 +40,8 @@ $(document).ready(function(){
     $('html, body').animate({scrollTop: $("#ignite_h2").offset().top}, 700);
   });
 
-  $("#social_media_link").click(function() {
-    $('html, body').animate({scrollTop: $("#social_media_h2").offset().top}, 700);
+  $("#organizers_link").click(function() {
+    $('html, body').animate({scrollTop: $("#organizers_h2").offset().top}, 700);
   });
 
   $(".back_to_top").click(function() {

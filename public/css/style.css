@@ -97,13 +97,21 @@ input {
   display: inline-block;
 }
 #important-stuff {
-  position: fixed;
-  left: 0px;
-  top: 150px;
-  width: 8em;
-  padding: .7em .5em;
-  background-color: #FFC8AA;
-  font-weight: bold;
+	width: 130px;
+  	position: fixed;
+	z-index: 3000;
+  	left: 0px;
+  	top: 150px;
+  	padding: 12px;
+	border: double 3px #f00;
+	border-left: 0;
+  	background-color: #FFC8AA;
+	line-height: 19px;
+	-webkit-box-shadow: 0 3px 10px #000;
+  	-moz-box-shadow: 0 3px 10px #000;
+}
+#important-stuff a {
+	font-weight: bold;
 }
 .back_to_top {
   color: #ffd700;
