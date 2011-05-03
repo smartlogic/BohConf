@@ -96,6 +96,15 @@ input {
   position: relative;
   display: inline-block;
 }
+#important-stuff {
+  position: fixed;
+  left: 0px;
+  top: 150px;
+  width: 8em;
+  padding: .7em .5em;
+  background-color: #FFC8AA;
+  font-weight: bold;
+}
 .back_to_top {
   color: #ffd700;
   font-size: 14px;
