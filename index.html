@@ -2,72 +2,114 @@
 <html>
 
   <head>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 670px)">
+    <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
     <title>BohConf 2013 | Baltimore</title>
     <meta name="description" content="BohConf 2013 is hosted in Baltimore, Maryland. Learn best practices for developing and designing web and mobile applications using Ruby on Rails, iOS, Android, UX, UI, HTML, CSS, Javascript, and related technologies.">
     <meta charset="utf-8">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="nav">
+    <nav class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container row-fluid">
+          <div class="span8 offset2">
 
-    <header>
-      <span>5/30/13 - 5/31/13</span>
-      <span>Baltimore, MD</span>
-      <span><a href="#">Register ($47)</a></span>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#venue">Venue</a>
-        <a href="#schedule">Schedule</a>
-        <a href="#sponsors">Sponsors</a>
-      </nav>
-    </header>
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            
+            <a class="brand" href="#">BohConf 2013</a>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#venue">Venue</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#register">Register</a></li>
+              </ul>
+            </div>
 
-    <article id="about">
-      <h2>About</h2>
 
-      <p>BohConf is a 1-day, multi-track, unconf-inspired conference dedicated to learning about
-        the latest technologies and practices in the web and mobile design/development world.</p>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-      <p>Professionals and enthusiasts of all backgrounds are encouraged to attend, participate,
-        and most importantly&mdash;get engaged.</p>
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span8 offset2">
+          <img src="/img/logo.png" alt="BohConf">
+          <div class="content">
 
-      <p>In supporting this mission BohConf is inexpensive and accessible to everyone.</p>
+            <div class="alert alert-error">
+              This page is under active development. Prices, dates, times, and schedule are subject to change.
+            </div>
 
-      <p>Follow <a href="https://twitter.com/bohconf">@bohconf</a> for the latest news.</p>
-    </article>
 
-    <article id="venue">
-      <h2>Venue</h2>
+            <article id="about">
+              <h2>About</h2>
 
-      <p>BohConf will take place in the Mt Vernon neighborhood of Baltimore at
-        1030 N Charles St, Baltimore, MD 21201.</p>
+              <p>BohConf is a 1-day, multi-track, unconf-inspired conference dedicated to learning about
+                the latest technologies and practices in the web and mobile design/development world.</p>
 
-      <p>There are hotels in the area but we encourage you to <a href="#">stay for free with
-        some locals</a>.</p>
+              <p>Professionals and enthusiasts of all backgrounds are encouraged to attend, participate,
+                and most importantly&mdash;get engaged.</p>
 
-      <p>Street parking is available in the neighborhood.  You can also take the Circulator
-        and other means of public transportation.</p>
-    </article>
+              <p>In supporting this mission BohConf is inexpensive and accessible to everyone.</p>
 
-    <article id="schedule">
-      <h2>Schedule</h2>
+              <p>Follow <a href="https://twitter.com/bohconf">@bohconf</a> for the latest news.</p>
+            </article>
 
-      <p>Thursday 5/30/13 from 6pm - 9pm: Ignite BohConf &amp; opening party.</p>
-      <p>Friday 5/31/13 from 8:30am - 5pm: multi-track conference.</p>
-      <p>Friday 5/31/13 from 5pm - 7pm: happy hour &amp; closing party.</p>
-    </article>
+            <article id="venue">
+              <h2>Venue</h2>
 
-    <article id="sponsors">
-      <h2>Sponsors</h2>
+              <p>BohConf <strong>may</strong> take place in the Mt Vernon neighborhood of Baltimore at
+                1030 N Charles St, Baltimore, MD 21201.</p>
 
-      <p>Thank you for the generous support of all of our sponsors.  Blah blah blah.</p>
-    </article>
+              <p>There are hotels in the area but we encourage you to <a href="#">stay for free with
+                some locals</a>.</p>
 
-    <footer>
-      All content released under some Creative Commons or whatever license.  View
-      <a href="#">BohConf themes from previous years</a>.
-    </footer>
-  
+              <p>Street parking is available in the neighborhood.  You can also take the Circulator
+                and other means of public transportation.</p>
+            </article>
+
+            <article id="schedule">
+              <h2>Schedule</h2>
+
+              <div class="alert alert-error">Dates <strong>not</strong> final!</div>
+              <p>Thursday 5/30/13 from 6pm - 9pm: Ignite BohConf &amp; opening party.</p>
+              <p>Friday 5/31/13 from 8:30am - 5pm: multi-track conference.</p>
+              <p>Friday 5/31/13 from 5pm - 7pm: happy hour &amp; closing party.</p>
+            </article>
+
+            <article id="sponsors">
+              <h2>Sponsors</h2>
+
+              <p>Thank you for the generous support of all of our sponsors.</p>
+            </article>
+
+            <article id="register">
+              <h2>Register</h2>
+
+              <p>Link to tickets, price, etc.</p>
+            </article>
+
+            <footer>
+              All content released under some Creative Commons or whatever license.  View
+              <a href="#">BohConf themes from previous years</a>.
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
   </body>
 </html>

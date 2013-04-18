@@ -1,2 +1,34 @@
 /* Desktop/Default CSS */
+body {
+  margin: 40px 0 0;
+  background: #bcd371;
+}
 
+footer {
+  margin-top: 120px;
+  font-size: 75%;
+}
+
+article {
+  padding-top: 40px;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.content {
+  background: #f8f8f8;
+  margin: 0 -40px;
+  padding: 0 40px 20px;
+  border-radius: 6px;
+}
+
+.navbar .brand, h1, h2, h3 {
+  font-family: "Damion", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #ff0000;
+}
+
+@media (max-width: 979px) {
+  body {
+    margin-top: 0;
+  }
+}
