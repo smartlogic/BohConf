@@ -1,4 +1,14 @@
-/* Desktop/Default CSS */
+@font-face {
+    font-family: 'damion';
+    src: url('/fonts/damion-regular-webfont.eot');
+    src: url('/fonts/damion-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/damion-regular-webfont.woff') format('woff'),
+         url('/fonts/damion-regular-webfont.ttf') format('truetype'),
+         url('/fonts/damion-regular-webfont.svg#damionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   margin: 40px 0 0;
   background: #bcd371;
@@ -23,7 +33,7 @@ article {
 }
 
 .navbar .brand, h1, h2, h3 {
-  font-family: "Damion", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "damion", "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #ff0000;
 }
 

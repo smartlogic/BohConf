@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e
+
+cat <<EOF > application.appcache
+CACHE MANIFEST
+# `date`
+`find css js img fonts -type f`
+EOF
+
+cat application.appcache
