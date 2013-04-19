@@ -20,15 +20,12 @@ footer {
 }
 
 article {
-  padding-top: 40px;
-  font-size: 16px;
+  padding: 40px 20px 0;
   line-height: 150%;
 }
 
 .content {
   background: #f8f8f8;
-  margin: 0 -40px;
-  padding: 0 40px 20px;
   border-radius: 6px;
 }
 
@@ -40,5 +37,11 @@ article {
 @media (max-width: 979px) {
   body {
     margin-top: 0;
+  }
+}
+@media (min-width: 1200px) {
+  article {
+    font-size: 16px;
+    line-height: 150%;
   }
 }
