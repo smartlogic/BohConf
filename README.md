@@ -19,4 +19,4 @@ In the future, it would be nice to have a BohConf organization, if we made any o
 
 Before committing, run `bin/update-manifest` to update the cache manifest. This will ensure people with an offline copy will get the update. I recommend using a tool like [live](http://github.com/ngauthier/nicks-toolbox/blob/master/live) to run it on file system changes.
 
-Sometimes the cache gets stuck. In chrome visit [chrome://appcache-internals/](chrome://appcache-internals/) to clear it manuall.
+Sometimes the appcache gets stuck. In chrome visit [chrome://appcache-internals/](chrome://appcache-internals/) to clear it manually.
