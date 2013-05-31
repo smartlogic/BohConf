@@ -182,6 +182,33 @@ div.header img {
   display: inline-block;
 }
 
+div.map {
+  text-align: center;
+}
+
+div.map span {
+  position: relative;
+  display: inline-block;
+  margin: 20px 0;
+  padding: 12px;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+}
+
+div.map span:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0 0 0 12px #fff inset, 0 0 4px 13px rgba(0, 0, 0, .2) inset;
+  -moz-box-shadow: 0 0 0 12px #fff inset, 0 0 4px 13px rgba(0, 0, 0, .2) inset;
+  box-shadow: 0 0 0 12px #fff inset, 0 0 4px 13px rgba(0, 0, 0, .2) inset;
+}
+
 footer {
   background-color: #eaeaea;
   font-size: 12px;
