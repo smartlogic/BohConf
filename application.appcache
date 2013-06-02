@@ -1,13 +1,17 @@
 CACHE MANIFEST
-# Wed May 22 09:59:37 EDT 2013
+# Sun Jun  2 16:52:05 CDT 2013
 css/bootstrap-responsive.min.css
 css/bootstrap.min.css
 css/style.css
 js/bootstrap.min.js
 js/jquery-1.9.1.min.js
+img/background.png
+img/bohconf-2013.png
+img/favicon.ico
 img/glyphicons-halflings-white.png
 img/glyphicons-halflings.png
 img/logo.png
+img/map.png
 fonts/damion-regular-webfont.eot
 fonts/damion-regular-webfont.svg
 fonts/damion-regular-webfont.ttf
