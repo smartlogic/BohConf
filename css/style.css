@@ -219,22 +219,33 @@ table {
   margin-bottom: 10px;
 }
 
-#hosts div.hosts-logos {
+#hosts {
   font-size: 0;
-  margin: 0 0 30px 0;
-  padding: 0 20px;
 }
 
-#hosts img.smartlogic {
+#hosts div {
   display: inline-block;
-  width: 60%;
-  margin: 0 10% 0 0;
-  padding: 30px 0 0 0;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: top;
 }
 
-#hosts img.ub {
-  display: inline-block;
-  width: 30%;
+#hosts div:first-of-type {
+  padding-right: 20px;
+}
+
+#hosts div:last-of-type {
+  padding-left: 20px;
+}
+
+#hosts div img {
+  margin: 0 0 20px 0;
+}
+
+#hosts div p {
+  line-height: 150%;
 }
 
 footer {
