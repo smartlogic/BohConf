@@ -16,6 +16,7 @@ Please keep `master` and `gh-pages` in sync. Because this is a "Project Page" no
 In the future, it would be nice to have a BohConf organization, if we made any other codes we wanted to share.
 
 In the meantime, run these commands / follow these steps (instructions below assume you are working in the root director of the `master` branch):
+
 1. Update the cache (see below): `bin/update-manifest`
 2. Add new and modified files to the commit: `git commit -am "<your message>"`
 3. Checkout the `gh-pages` branch: `git checkout gh-pages`
