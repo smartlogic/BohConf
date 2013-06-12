@@ -240,6 +240,45 @@ table {
   margin-bottom: 10px;
 }
 
+#hosts {
+  font-size: 0;
+}
+
+#hosts div {
+  display: block;
+}
+
+#hosts div.logos a,
+#hosts div.descriptions p {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+}
+
+#hosts div.descriptions p {
+  vertical-align: top;
+}
+
+#hosts div.logos a:first-of-type,
+#hosts div.descriptions p:first-of-type {
+  padding-right: 20px;
+}
+
+#hosts div.logos a:last-of-type,
+#hosts div.descriptions p:last-of-type {
+  padding-left: 20px;
+}
+
+#hosts div img {
+  margin: 0 0 30px 0;
+}
+
+#hosts div p {
+  line-height: 150%;
+}
+
 footer {
   background-color: #eaeaea;
   font-size: 12px;
