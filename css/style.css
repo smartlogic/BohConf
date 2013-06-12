@@ -136,7 +136,7 @@ div.header h1 {
   background-size: contain;
   text-align: left;
   text-indent: -9999px;
-  margin: 60px 0 0 0;
+  margin: 30px 0 0 0;
 }
 
 div.header p {
@@ -165,7 +165,7 @@ div.header a {
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .6), 0 1px 0 rgba(255, 255, 255, .5) inset;
   -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .6), 0 1px 0 rgba(255, 255, 255, .5) inset;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .6), 0 1px 0 rgba(255, 255, 255, .5) inset;
-  margin: 40px 0 0 0;
+  margin: 30px 0 0 0;
   padding: 16px 48px;
 }
 
@@ -176,6 +176,27 @@ div.header a:hover {
 div.header a:active {
   background-color: #50b9ff;
   -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, .7), 0 2px 4px rgba(0, 0, 0, .2) inset;
+}
+
+div.header a#cfp-callout-link {
+  font-size: 18px;
+  line-height: 135%;
+  background-color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+div.header a#cfp-callout-link:hover {
+  background-color: #F33;
+}
+
+div.header a#cfp-callout-link:active {
+  background-color: #E00;
+}
+
+div.header a#cfp-callout-link strong {
+  display: block;
+  font-size: 22px;
 }
 
 div.header img {
