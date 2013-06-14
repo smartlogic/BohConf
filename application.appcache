@@ -1,11 +1,12 @@
 CACHE MANIFEST
-# Wed Jun 12 12:14:11 EDT 2013
-css/.style.css.swp
+# Fri Jun 14 15:47:08 EDT 2013
 css/bootstrap-responsive.min.css
 css/bootstrap.min.css
 css/style.css
-js/bootstrap.min.js
-js/jquery-1.9.1.min.js
+fonts/damion-regular-webfont.eot
+fonts/damion-regular-webfont.svg
+fonts/damion-regular-webfont.ttf
+fonts/damion-regular-webfont.woff
 img/background.png
 img/bohconf-2013.png
 img/favicon.ico
@@ -16,7 +17,5 @@ img/map.png
 img/smartlogic.png
 img/ub-logo-big.png
 img/ub.jpg
-fonts/damion-regular-webfont.eot
-fonts/damion-regular-webfont.svg
-fonts/damion-regular-webfont.ttf
-fonts/damion-regular-webfont.woff
+js/bootstrap.min.js
+js/jquery-1.9.1.min.js

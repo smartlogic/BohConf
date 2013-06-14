@@ -4,7 +4,7 @@ set -e
 cat <<EOF > application.appcache
 CACHE MANIFEST
 # `date`
-`find css js img fonts -type f`
+`git ls-files css js img fonts`
 EOF
 
 cat application.appcache
