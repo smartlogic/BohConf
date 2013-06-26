@@ -292,6 +292,26 @@ table {
   padding: 0 20px 40px 20px;
 }
 
+#bohconf-2010 div,
+#bohconf-2011 div,
+#bohconf-2012 div,
+#bohconf-2013 div {
+  font-size: 0;
+  margin: 20px 0;
+}
+
+#bohconf-2010 img,
+#bohconf-2011 img,
+#bohconf-2012 img,
+#bohconf-2013 img {
+  display: inline-block;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
 footer {
   background-color: #eaeaea;
   font-size: 12px;
