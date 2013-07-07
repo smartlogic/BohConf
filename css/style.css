@@ -45,6 +45,19 @@ article p:last-child {
   margin-bottom: 0;
 }
 
+article#schedule h3 {
+  font-weight: 400;
+}
+
+article#schedule section {
+  height: 110px;
+}
+
+article#schedule section img {
+  height: 100px;
+  border-radius: 50%;
+}
+
 .content {
   background: #f8f8f8;
   margin: 0 0 50px 0;
