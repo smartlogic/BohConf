@@ -22,7 +22,7 @@ In the meantime, run these commands / follow these steps (instructions below ass
 3. Checkout the `gh-pages` branch: `git checkout gh-pages`
 4. Merge `master`'s changes in: `git merge master`
 5. Go back to `master` so you don't accidentally screw up `gh-pages`: `git checkout master`
-6. Publish: `git push`
+6. Publish: `git push` or `git push origin gh-pages`
 
 ## Updating the cache
 
