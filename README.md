@@ -26,6 +26,8 @@ In the meantime, run these commands / follow these steps (instructions below ass
 
 ## Updating the cache
 
-Before committing, run `bin/update-manifest` to update the cache manifest. This will ensure people with an offline copy will get the update. I recommend using a tool like [live](http://github.com/ngauthier/nicks-toolbox/blob/master/live) to run it on file system changes.
+Before committing (step 1), run `bin/update-manifest` to update the cache manifest. This will ensure people with an offline copy will get the update. I recommend using a tool like [live](http://github.com/ngauthier/nicks-toolbox/blob/master/live) to run it on file system changes.
+
+### Pages not updating locally?
 
 Sometimes the appcache gets stuck. In chrome visit [chrome://appcache-internals/](chrome://appcache-internals/) to clear it manually.
