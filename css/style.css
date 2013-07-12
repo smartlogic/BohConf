@@ -56,6 +56,15 @@ article#schedule section {
 article#schedule section img {
   height: 100px;
   border-radius: 50%;
+  float: left;
+  margin-right: 1em;
+}
+article#schedule section strong {
+  display: block;
+  padding-top: 1em;
+}
+article#schedule section span {
+  display: block;
 }
 
 .content {

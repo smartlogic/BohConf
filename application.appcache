@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Sun Jul  7 12:51:55 EDT 2013
+# Fri Jul 12 10:47:17 EDT 2013
 css/bootstrap-responsive.min.css
 css/bootstrap.min.css
 css/style.css
@@ -7,6 +7,8 @@ fonts/damion-regular-webfont.eot
 fonts/damion-regular-webfont.svg
 fonts/damion-regular-webfont.ttf
 fonts/damion-regular-webfont.woff
+img/application-developers-alliance.png
+img/apps-alliance.png
 img/back-forty.png
 img/background.png
 img/bohconf-2013.png
@@ -16,6 +18,8 @@ img/glyphicons-halflings-white.png
 img/glyphicons-halflings.png
 img/logo.png
 img/map.png
+img/omni-TI.png
+img/omniTI.png
 img/poster-2010.png
 img/shirt-2010.png
 img/shirt-green-2011.png
@@ -23,8 +27,27 @@ img/shirt-green-2012.png
 img/shirt-purple-2011.png
 img/shirt-red-2012.png
 img/smartlogic.png
+img/speakers/ahacop.png
+img/speakers/andymangold.jpeg
+img/speakers/bryanl.jpeg
 img/speakers/bsierakowski.png
+img/speakers/canweriotnow.png
+img/speakers/cupakromer.jpeg
+img/speakers/danivovich.jpg
+img/speakers/ericoestrich.png
+img/speakers/flipsasser.jpeg
+img/speakers/fontzter.jpg
+img/speakers/gtrakgt.jpg
+img/speakers/ignu.jpeg
+img/speakers/javierios.jpeg
+img/speakers/johnbintz.png
+img/speakers/kanye_boh.png
 img/speakers/ngauthier.jpeg
+img/speakers/oronhaus.jpg
+img/speakers/ryandestefano.jpg
+img/speakers/subelsky.png
+img/speakers/sznichols.png
+img/speakers/tvon.jpg
 img/speakers/una.png
 img/ub-logo-big.png
 img/ub.jpg
