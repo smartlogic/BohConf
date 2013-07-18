@@ -176,8 +176,12 @@ div.header p.pre-party {
   font-size: 22px;
   margin: 30px 0 0 0;
 }
+div.header p.pre-party a {
+  font-weight: 400;
+  text-decoration: none;
+}
 
-div.header a {
+div.header a.ticket-link {
   display: inline-block;
   color: #fff;
   background-color: #64c8ff;
@@ -191,11 +195,11 @@ div.header a {
   padding: 16px 48px;
 }
 
-div.header a:hover {
+div.header a.ticket-link:hover {
   background-color: #78d2ff;
 }
 
-div.header a:active {
+div.header a.ticket-link:active {
   background-color: #50b9ff;
   -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, .7), 0 2px 4px rgba(0, 0, 0, .2) inset;
 }
