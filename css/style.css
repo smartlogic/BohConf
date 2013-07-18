@@ -336,6 +336,10 @@ footer {
 }
 
 @media (max-width: 767px) {
+  table {
+    background-color: #fff;
+  }
+
   div.header {
     text-align: center;
   }
