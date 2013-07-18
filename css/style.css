@@ -49,21 +49,21 @@ article#schedule h3 {
   font-weight: 400;
 }
 
-article#schedule section {
-  height: 110px;
+article#schedule table tr td, article#schedule table tr th {
+  text-align: center;
 }
-
-article#schedule section img {
-  height: 100px;
+article#schedule table tr td img {
+  display: block;
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
   border-radius: 50%;
-  float: left;
-  margin-right: 1em;
 }
-article#schedule section strong {
+article#schedule table tr td strong {
   display: block;
   padding-top: 1em;
 }
-article#schedule section span {
+article#schedule table tr td span {
   display: block;
 }
 
@@ -250,16 +250,6 @@ div.map span:after {
   -webkit-box-shadow: 0 0 0 12px #fff inset, 0 0 4px 13px rgba(0, 0, 0, .2) inset;
   -moz-box-shadow: 0 0 0 12px #fff inset, 0 0 4px 13px rgba(0, 0, 0, .2) inset;
   box-shadow: 0 0 0 12px #fff inset, 0 0 4px 13px rgba(0, 0, 0, .2) inset;
-}
-
-th, td {
-  padding: 3px 9px;
-  border: solid 1px #CCC;
-  text-align: center;
-}
-
-table {
-  margin-bottom: 10px;
 }
 
 #hosts {
